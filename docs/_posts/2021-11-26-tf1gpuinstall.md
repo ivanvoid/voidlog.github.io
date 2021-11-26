@@ -5,7 +5,8 @@ title: "How to install Tensorflow 1.0.1 on Ubuntu 18 with CUDA 8.0"
 Steps to follow:  
 - `$ conda create --name tf1-gpu-py27 python=2.7 tensorflow-gpu==1.0.1`
 - `$ conda activate tf1-gpu-py27`
-- `$ sudo apt install nvidia-drivar-495` is the way to check what driver you need (command?)
+- `$ sudo apt install nvidia-drivar-495`
+  - You can check what drivers you need by running `$ nvidia-detector`
 - `$ sudo apt install nvidia-cuda-toolkit`
 - go to 'developer.nvidia.com/cuda-toolkit-archive'
 - select 'CUDA Toolkit 8.0 GA2'
