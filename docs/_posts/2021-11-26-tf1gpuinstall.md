@@ -2,6 +2,8 @@
 layout: post
 title: "How to install Tensorflow 1.0.1 on Ubuntu 18 with CUDA 8.0"
 ---
+# How to install Tensorflow 1.0.1 on Ubuntu 18 with CUDA 8.0
+  
 Steps to follow:  
 - `$ conda create --name tf1-gpu-py27 python=2.7 tensorflow-gpu==1.0.1`
 - `$ conda activate tf1-gpu-py27`
