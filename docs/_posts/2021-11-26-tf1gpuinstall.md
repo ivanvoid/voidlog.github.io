@@ -41,6 +41,8 @@ conda activate tf1-gpu-py27
 conda install pip
 ./miniconda/envs/tf1-gpu-py27/bin/pip install tensorflow-gpu==1.0.1
 ./miniconda/envs/tf1-gpu-py27/bin/python2
+alias python-2=./miniconda/envs/tf1-gpu-py27/bin/python2
+python-2
 >>>
 - `>>> import tensorflow as tf`
 - `>>> tf.__version__`
