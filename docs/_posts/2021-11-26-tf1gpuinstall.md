@@ -54,8 +54,8 @@ If Error:
 ImportError: libcudart.so.8.0: cannot open shared object file: No such file or directory
 - `sudo ldconfig /usr/local/cuda-8.0/lib64`
 - Add this to ~/.bashrc 
-    - `export PATH=$PATH:/usr/local/cuda-8.0/bin
-       export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/cuda-8.0/lib64
+    - `export PATH=$PATH:/usr/local/cuda-8.0/bin`
+    -  `export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/cuda-8.0/lib64`
 - run `source ~/.bashrc`
 
 <!-- - `cuda cad output`; -->
