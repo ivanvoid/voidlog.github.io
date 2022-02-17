@@ -6,9 +6,9 @@ title: "How to install Tensorflow 1.0.1 on Ubuntu 18 with CUDA 8.0"
   
   
 ## Steps to follow to remove all:
-- sudo apt-get remove --purge '^nvidia-.*'
-- sudo apt-get remove --purge '^libnvidia-.*'
-- sudo apt-get remove --purge '^cuda-.*'
+- sudo apt-get remove \-\-purge '^nvidia-.*'
+- sudo apt-get remove \-\-purge '^libnvidia-.*'
+- sudo apt-get remove \-\-purge '^cuda-.*'
 - sudo rm -rf /usr/local/cuda*
 - sudo apt update
 - sudo apt upgrade
