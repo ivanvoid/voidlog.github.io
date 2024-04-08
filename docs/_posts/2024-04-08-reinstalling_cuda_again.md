@@ -32,18 +32,29 @@ sudo apt update && sudo apt upgrade -y
 Mics packeges:  
 ```sudo apt install g++ freeglut3-dev build-essential libx11-dev libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev```  
 
+Go to 
 ```
-sudo add-apt-repository ppa:graphics-drivers/ppa
-sudo apt update
+`https://www.nvidia.com/Download/index.aspx?lang=en-us`
+```
+Grab your version of driver  
+Make sure that gcc version is correct!!! 
+Instalation:  
+```
+chmod -x Nvidia-Linux-x86_64-550.67.run
+sudo sh Nvidia-Linux-x86_64-550.67.run
 ```
 
-Check recomended driver:  
-```ubuntu-drivers devices```  
+It will tell you any Errors at the end of `/var/log/nvidia-installer.log`
+```
+https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html
+```
 
-Install drivers:  
-```sudo apt install libnvidia-common-<branch> libnvidia-gl-<branch> nvidia-driver-<branch> -y```  
-For me `nvidia-driver-545` recomended, replaceing brunch with recomended version:  
-```sudo apt install libnvidia-common-545 libnvidia-gl-545 nvidia-driver-545 -y```  
+you can relink your gcc compiler:
+```
+sudo ln -s -f /usr/bin/gcc-12 /usr/bin/gcc
+```
+
+
 
 
 
