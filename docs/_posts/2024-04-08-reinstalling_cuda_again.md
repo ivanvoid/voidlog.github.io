@@ -30,14 +30,15 @@ sudo apt update && sudo apt upgrade -y
 ## Installing Drivers
 
 Mics packeges:  
-```sudo apt install g++ freeglut3-dev build-essential libx11-dev libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev```  
+```
+sudo apt install g++ freeglut3-dev build-essential libx11-dev libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev
+```  
 
 Go to 
-```
-`https://www.nvidia.com/Download/index.aspx?lang=en-us`
-```
+[https://www.nvidia.com/Download/index.aspx?lang=en-us](https://www.nvidia.com/Download/index.aspx?lang=en-us)  
 Grab your version of driver  
-Make sure that gcc version is correct!!! 
+Make sure that gcc version is correct!!!   
+
 Instalation:  
 ```
 chmod -x Nvidia-Linux-x86_64-550.67.run
@@ -54,13 +55,28 @@ you can relink your gcc compiler:
 sudo ln -s -f /usr/bin/gcc-12 /usr/bin/gcc
 ```
 
-
-
+Run:
+```
+nvidia-smi
+```
+to make sure that drivers are installed correctly, it should display GPU data.
 
 
 ## Installing CUDA-toolkit
 
+[https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)
 
+## Installing PyTorch
 
+[https://pytorch.org/](https://pytorch.org/)
+
+### Testing torch
+```
+python
+>>>
+import torch
+torch.cuda.is_available()
+>>> True # Output we want
+```
   
   
