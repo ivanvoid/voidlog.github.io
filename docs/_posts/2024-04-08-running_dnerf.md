@@ -7,7 +7,7 @@ title: "Running D-Nerf"
 ## Source code borrowing
 In order to run code, we need to get code.
 
-(D-NeRF)[https://github.com/albertpumarola/D-NeRF]
+[D-NeRF](https://github.com/albertpumarola/D-NeRF)
 
 ## Installation
 ```
