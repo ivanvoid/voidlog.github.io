@@ -37,6 +37,12 @@ conda activate dnerf
 python run_dnerf.py --config configs/mutant.txt
 ```
 
+Running tensorboard:
+```
+pip3 install tensorboard
+~/miniconda3/envs/dnerf/bin/tensorboard --logdir=./logs
+```
+
 
 
 # OLD
