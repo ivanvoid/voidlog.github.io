@@ -45,8 +45,10 @@ pip3 install tensorboard
 
 OOM errors:  
 Set chunk in ./config/name.txt to lower values.   
+For 8GB GPU works:   
 ```
-chunk = 1024
+netchunk = 45056
+chunk = 20480
 ```
 
 # Iteration on D-NeRF
@@ -66,7 +68,7 @@ So [this dude](https://github.com/ashawkey/torch-ngp) already put hash into d-ne
 # Research Notes
 TODO IMPORTANT:
 - Write experiments section
-- Write Discussion section
+- Write Discussion section  
 - Write conclusion section
 - Get metrics: MSE, PSNR, etc 
 - copy, change things, check metrics AGAIN.
