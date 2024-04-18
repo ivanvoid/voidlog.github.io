@@ -67,16 +67,16 @@ So [this dude](https://github.com/ashawkey/torch-ngp) already put hash into d-ne
 
 # Research Notes
 TODO IMPORTANT:
-- Write experiments section
-- Write Discussion section  
+- longer abstract (lol)
+- longer intro
+- longer method (~1 page)
+- Experements (~1.5 page) Write experiments section
 - Write conclusion section
 - Get metrics: MSE, PSNR, etc 
-- copy, change things, check metrics AGAIN.
-- repeat till metrics will be better.
-- profit?
 - Generate experements table 1. Quality of predictions.
 - Generate experements table 2. Speed of training
 - Generate experements table 3. Speed of inference?
+- Generate experements results. Abletion study
   
 TODO SECONDARY:
 - Plot images, prediction results.
@@ -89,4 +89,8 @@ DONE:
 - Write Method. [+++]
 - Describe Implementation details [+++]    
 
+NOTES:
+- Copy, change things, check metrics AGAIN.
+- repeat till metrics will be better.
+- profit?
 
