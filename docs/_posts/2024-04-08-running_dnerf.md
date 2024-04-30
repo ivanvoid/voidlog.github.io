@@ -55,6 +55,11 @@ chunk = 20480
 So [this dude](https://github.com/ashawkey/torch-ngp) already put hash into d-nerf.  
 [Fast NeRF](https://github.com/mrcabellom/fastNerf) speeding up 200x fps.
 
+
+## Inference with existed models
+
+
+
 ## Adding Hash encoding.
 
 
