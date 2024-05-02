@@ -7,3 +7,6 @@ Everything here is ironic.
 
 - Linkedin crawler that just go around leaving sarcastic comments (LM + web-crawler)
 - Get statistics when ppl post/like/comment posts on there for optimization
+
+Usefull sites:  
+- https://www.deepfriedmemes.com/
